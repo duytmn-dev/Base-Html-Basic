@@ -1,0 +1,114 @@
+html {
+    width: 100%;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+/* Header  */
+
+.header {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    background-color: red;
+}
+
+/* Content  */
+
+.content {
+    width: 100%;
+    margin: 0;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    background-color: aqua;
+}
+
+.navbar>ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: green;
+}
+
+.navbar>ul>li {
+    display: inline;
+    padding: 0 40px;
+}
+
+.navbar>ul>li>a {
+    color: white;
+}
+
+/* Content left  */
+
+.content__left {
+    width: 70%;
+    /* height: 200px;  Chiều dài của Content__left */
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+/* Card  */
+
+.content__left-card {
+    width: 25%;
+    height: 300px;
+    background-color: yellow;
+    margin: 21px;
+    float: left;
+    text-align: center;
+}
+
+
+.content__left-card>img {
+    width: 90%;
+    padding-top: 10px;
+}
+
+.content__left-card>h3 {
+    margin: 0;
+}
+
+/* Content right  */
+
+.content__right {
+    width: 30%;
+    /* height: 200px; */
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-color: orange;
+}
+
+.content__right-card {
+    width: 30%;
+    height: 300px;
+    background-color: violet;
+    margin: 21px;
+    float: left;
+    text-align: center;
+}
+
+/* Footer  */
+.footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.footer>h3 {
+    margin: 0;
+    padding: 0;
+}
